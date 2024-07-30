@@ -33,8 +33,26 @@ body {
     color: ghostwhite;
 }
 
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 2em;
+    box-sizing: border-box;
+}
+
 #blake {
-    margin: 0 auto;
-    padding: 0 6em;
-    font-size: 3em;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+@media screen and (max-device-width: 480px) {
+    #blake{
+        font-size: 1em;
+        line-height: 2em;
+    }
 }
