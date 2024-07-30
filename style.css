@@ -1,26 +1,25 @@
 body {
     background-color: black;
-    color: orange;
     text-align: center;
-    margin-top: 10em;
+    margin-top: 4em;
 }
 
 #doomface {
     height: 150px;
     width: auto;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 #jumblerBtn {
     background-color: black;
-    color: orange;
-    border: solid 2px orange;
+    color: whitesmoke;
+    border: solid 2px goldenrod;
     border-radius: 0.5em;
     height: 3em;
     width: auto;
     padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #jumblerBtn:hover {
@@ -29,15 +28,13 @@ body {
 }
 
 #header {
-    font-size: 40px;
+    font-size: 2em;
     margin-bottom: 1em;
+    color: ghostwhite;
 }
 
-#blogLink {
-    color: white;
-    text-decoration: none;
-}
-
-#blogLink:hover {
-    color: red;
+#blake {
+    margin: 0 auto;
+    padding: 0 6em;
+    font-size: 3em;
 }
