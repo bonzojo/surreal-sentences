@@ -32,13 +32,20 @@ const surrealSentences = () => {
 };
 
 const randomSelector = () => {
-    const replace1 = ['watch', 'fix', 'tell', 'observe', 'set', 'fasten', 'adjust', 'restore', 'inform', 'reveal', 'announce', 'describe', 'disclose', 'convey', 'explain', 'repair', 'resolve'];
-    const replace3 = ['realm', 'domain', 'entity', 'element', 'object', 'artifact', 'monkey', 'elephant', 'dog', 'biscuit', 'cake', 'key', 'painting', 'glass', 'pigeon', 'cat', 'car', 'bus'];
-    const replace6 = ['seed', 'kernel', 'granule', 'particle', 'berry', 'drop', 'flake', 'morsel', 'pixel', 'chipping', 'smudge', 'dish', 'puddle', 'nodule', 'scrape', 'trickle', 'figment'];
-    const replace8 = ['snow', 'sediment', 'clay', 'biscuit', 'dust', 'gravy', 'hair', 'breadcrumb', 'tomato', 'smoke', 'dirt', 'stain', 'flame', 'potato', 'shadow', 'milk', 'ember', 'flicker'];
-    const replace11 = ['penumbra', 'silhouette', 'haze' , 'utopia', 'nirvana', 'eden', 'paradise', 'valhalla', 'sanctuary', 'realm', 'server', 'modem', 'elysium', 'field' , 'pitch', 'box'];
-    const replace14 = ['unruly', 'feral', 'brazen', 'schizoid', 'untamed', 'independent', 'careless', 'wandering', 'free', 'natural', 'weird', 'flamboyant', 'irreverent'];
-    const replace15 = ['dog', 'donkey', 'biscuit', 'petal', 'bush', 'seedling', 'wart', 'bobblehead', 'tumbler', 'ornament', 'bag', 'chimp', 'book', 'cheeseburger', 'bottle', 'telephone', 'monkey'];
+    const replace1 = ['see', 'watch', 'fix', 'tell', 'observe', 'set', 'fasten', 'adjust', 'restore', 'inform', 'reveal', 'announce', 'describe', 'disclose', 'convey', 'explain', 'repair', 'resolve'];
+    const replace3 = ['world', 'realm', 'domain', 'entity', 'element', 'object', 'artifact', 'monkey', 'elephant', 'dog', 'biscuit', 'cake', 'key', 'painting', 'glass', 'pigeon', 'cat', 'car', 'bus'];
+    const replace6 = ['grain', 'seed', 'kernel', 'granule', 'particle', 'berry', 'drop', 'flake', 'morsel', 'pixel', 'chipping', 'smudge', 'dish', 'puddle', 'nodule', 'scrape', 'trickle', 'figment'];
+    const replace8 = ['sand', 'snow', 'sediment', 'clay', 'biscuit', 'dust', 'gravy', 'hair', 'breadcrumb', 'tomato', 'smoke', 'dirt', 'stain', 'flame', 'potato', 'shadow', 'milk', 'ember', 'flicker'];
+    const replace11 = ['heaven', 'penumbra', 'silhouette', 'haze' , 'utopia', 'nirvana', 'eden', 'paradise', 'valhalla', 'sanctuary', 'realm', 'server', 'modem', 'elysium', 'field' , 'pitch', 'box'];
+    const replace14 = ['wild', 'unruly', 'feral', 'brazen', 'schizoid', 'untamed', 'independent', 'careless', 'wandering', 'free', 'natural', 'weird', 'flamboyant', 'irreverent'];
+    const replace15 = ['flower', 'dog', 'donkey', 'biscuit', 'petal', 'bush', 'seedling', 'wart', 'bobblehead', 'tumbler', 'ornament', 'bag', 'chimp', 'book', 'cheeseburger', 'bottle', 'telephone', 'monkey'];
+    const replace16 = ['hold', 'handle', 'juggle', 'fondle', 'stroke', 'weigh', 'lift', 'squeeze', 'crush', 'tickle', 'fiddle', 'poke', 'flick', 'pick', 'massage'];
+    const replace17 = ['eternity', 'infinity', 'time', 'hours', 'space', 'stars', 'lego', 'warts', 'beans', 'ash', 'coconuts', 'biscuits', 'water', 'melons', 'chocolate', 'travel guides', 'glass', 'cards'];
+    const replace20 = ['palm', 'foot', 'scalp', 'naval', 'brow', 'cusp', 'crack', 'tip', 'crook', 'groove', 'crease', 'furl'];
+    const replace23 = ['hand', 'toes', 'groin', 'elbow', 'forehead', 'teeth', 'eyelids', 'nose', 'head', 'shoulders', 'knees', 'foot', 'fingers', 'chin'];
+    const replace25 = ['eternity', 'maternity', 'paternity', 'lightspeed', 'mandarin', 'fraternity', 'germany', 'memory', 'undefined', 'null', 'emptiness', 'abyss', 'clocks', 'machines'];
+    const replace28 = ['hour', 'elephant', 'age', 'aeon', 'afterlife', 'minute', 'egg', 'idea', 'ovary', 'napkin', 'android', 'igloo', 'ego', 'umbrella', 'underdog', 'barmcake'];
+
 
     words[1] = replace1[Math.floor(Math.random() * replace1.length)];
     words[3] = replace3[Math.floor(Math.random() * replace3.length)];
@@ -47,6 +54,12 @@ const randomSelector = () => {
     words[11] = replace11[Math.floor(Math.random() * replace11.length)];
     words[14] = replace14[Math.floor(Math.random() * replace14.length)];
     words[15] = replace15[Math.floor(Math.random() * replace15.length)];
+    words[16] = replace16[Math.floor(Math.random() * replace16.length)];
+    words[17] = replace17[Math.floor(Math.random() * replace17.length)];
+    words[20] = replace20[Math.floor(Math.random() * replace20.length)];
+    words[23] = replace23[Math.floor(Math.random() * replace23.length)];
+    words[25] = replace25[Math.floor(Math.random() * replace25.length)];
+    words[28] = replace28[Math.floor(Math.random() * replace28.length)];
 
     // Just to complete the next two lines!
     
